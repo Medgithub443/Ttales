@@ -1,0 +1,72 @@
+{
+  "menu.title": "=== SELECT A SCENARIO TO PLAY ===",
+  "menu.exit": "[0] Exit game",
+  "menu.continue": "[1] Continue game",
+  "menu.restart": "[2] Start over",
+  "menu.has_save": "[Save found]",
+  "menu.settings": "[-1] Settings",
+  "menu.scenario_start": "--- SCENARIO START: {name} ---",
+
+  "goodbye": "See you!",
+
+  "game.end": "--- THE END ---",
+  "game.press_enter": "Press Enter to return to the menu...",
+  "game.unknown_command": "You can't do that or the command is unclear. Try rephrasing. (Type !help for command list.)",
+
+  "save.found": "Save found for scenario \"{name}\".",
+  "save.saved": "Progress saved.",
+
+  "interrupt.title": "Interrupt received. Progress successfully saved.",
+  "interrupt.return": "Returning to main menu...",
+
+  "inventory.title": "=== INVENTORY ===",
+  "inventory.empty": "(inventory is empty)",
+
+  "error.no_scenarios": "Error: No story ZIP archives found in the 'scenarios' folder.",
+  "error.corrupted": "[Error]: File \"{name}\" is empty or corrupted.",
+  "error.no_lang": "[Error]: No story language file found inside the archive.",
+
+  "help.title": "=== COMMANDS ===",
+  "help.exit": "return to main menu (saves progress)",
+  "help.inventory": "show inventory",
+  "help.look": "re-read the current location description",
+  "help.save": "save progress manually",
+  "help.sound": "turn sound on/off",
+  "help.volume": "volume 0-100",
+  "help.help": "show this list",
+
+  "sound.on": "Sound is ON.",
+  "sound.off": "Sound is OFF.",
+  "sound.status": "Sound is currently: {state}. Use \"!sound on\" or \"!sound off\".",
+  "sound.invalid": "Usage: !sound on | off",
+
+  "volume.set": "Volume set to {value}%.",
+  "volume.invalid": "Provide a number 0-100. Example: !volume 50",
+
+  "meta.unknown": "Unknown command: {cmd}. Type !help for the list.",
+
+  "state.on": "on",
+  "state.off": "off",
+
+  "settings.title": "=== SETTINGS ===",
+  "settings.language": "Interface language",
+  "settings.sound": "Sound",
+  "settings.volume": "Volume",
+  "settings.audio_backend": "Audio backend",
+  "settings.typing_speed": "Typing speed (s)",
+  "settings.margins": "Margins (L/R/T)",
+  "settings.fullscreen": "Fullscreen",
+
+  "settings.opt.language": "[1] Change interface language",
+  "settings.opt.sound": "[2] Toggle sound on/off",
+  "settings.opt.volume": "[3] Change volume (0-100)",
+  "settings.opt.backend": "[4] Change audio backend",
+  "settings.opt.typing": "[5] Change typing speed",
+  "settings.opt.margins": "[6] Change margins (L R T)",
+  "settings.opt.fullscreen": "[7] Toggle fullscreen",
+  "settings.opt.back": "[0] Back",
+
+  "settings.prompt.volume": "Enter volume 0-100:",
+  "settings.prompt.typing": "Enter delay in seconds (0 - 0.5):",
+  "settings.prompt.margins": "Enter margins separated by spaces: left right top (e.g. 4 4 2)"
+}

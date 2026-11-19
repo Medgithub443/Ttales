@@ -1,0 +1,13 @@
+{
+  "language": "ru",
+  "sound_enabled": true,
+  "sound_volume": 1.0,
+  "audio_backend": "opusdec",
+  "typing_speed": 0.01,
+  "fullscreen_on_start": true,
+  "margins": {
+    "left": 4,
+    "right": 4,
+    "top": 2
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "menu.title": "=== ВЫБЕРИТЕ СЦЕНАРИЙ ДЛЯ ИГРЫ ===",
+  "menu.exit": "[0] Выйти из игры",
+  "menu.continue": "[1] Продолжить игру",
+  "menu.restart": "[2] Начать заново",
+  "menu.has_save": "[Есть сохранение]",
+  "menu.settings": "[-1] Настройки",
+  "menu.scenario_start": "--- НАЧАЛО СЦЕНАРИЯ: {name} ---",
+
+  "goodbye": "До встречи!",
+
+  "game.end": "--- КОНЕЦ ИГРЫ ---",
+  "game.press_enter": "Нажмите Enter для возврата в меню...",
+  "game.unknown_command": "Вы не можете этого сделать или команда непонятна. Попробуйте перефразировать. (Введите !help для списка команд.)",
+
+  "save.found": "Найдено сохранение в сценарии «{name}».",
+  "save.saved": "Прогресс сохранён.",
+
+  "interrupt.title": "Сигнал прерывания получен. Прогресс успешно сохранён.",
+  "interrupt.return": "Возврат в главное меню...",
+
+  "inventory.title": "=== ИНВЕНТАРЬ ===",
+  "inventory.empty": "(инвентарь пуст)",
+
+  "error.no_scenarios": "Ошибка: В папке 'scenarios' не найдено ZIP-архивов историй.",
+  "error.corrupted": "[Ошибка]: Файл «{name}» пуст или повреждён.",
+  "error.no_lang": "[Ошибка]: В архиве нет ни одного языкового файла истории.",
+
+  "help.title": "=== КОМАНДЫ ===",
+  "help.exit": "выйти в главное меню (с сохранением)",
+  "help.inventory": "показать инвентарь",
+  "help.look": "перечитать описание текущей локации",
+  "help.save": "сохранить прогресс вручную",
+  "help.sound": "включить/выключить звук",
+  "help.volume": "громкость 0-100",
+  "help.help": "показать этот список",
+
+  "sound.on": "Звук включён.",
+  "sound.off": "Звук выключен.",
+  "sound.status": "Звук сейчас: {state}. Используйте «!sound on» или «!sound off».",
+  "sound.invalid": "Использование: !sound on | off",
+
+  "volume.set": "Громкость установлена на {value}%.",
+  "volume.invalid": "Укажите число от 0 до 100. Пример: !volume 50",
+
+  "meta.unknown": "Неизвестная команда: {cmd}. Введите !help для списка.",
+
+  "state.on": "вкл",
+  "state.off": "выкл",
+
+  "settings.title": "=== НАСТРОЙКИ ===",
+  "settings.language": "Язык интерфейса",
+  "settings.sound": "Звук",
+  "settings.volume": "Громкость",
+  "settings.audio_backend": "Аудио-движок",
+  "settings.typing_speed": "Скорость печати (с)",
+  "settings.margins": "Отступы (L/R/T)",
+  "settings.fullscreen": "Полноэкранный режим",
+
+  "settings.opt.language": "[1] Сменить язык интерфейса",
+  "settings.opt.sound": "[2] Включить/выключить звук",
+  "settings.opt.volume": "[3] Изменить громкость (0-100)",
+  "settings.opt.backend": "[4] Сменить аудио-движок",
+  "settings.opt.typing": "[5] Изменить скорость печати",
+  "settings.opt.margins": "[6] Изменить отступы (L R T)",
+  "settings.opt.fullscreen": "[7] Включить/выключить fullscreen",
+  "settings.opt.back": "[0] Назад",
+
+  "settings.prompt.volume": "Введите громкость 0-100:",
+  "settings.prompt.typing": "Введите задержку в секундах (0 - 0.5):",
+  "settings.prompt.margins": "Введите отступы через пробел: левый правый верхний (например: 4 4 2)"
+}
